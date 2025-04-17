@@ -30,3 +30,7 @@ print(f"Ingreso de tienda1 es -> {ingreso_tienda}")
 print(f"Ingreso de tienda2 es -> {ingreso_tienda2}")
 print(f"Ingreso de tienda3 es -> {ingreso_tienda3}")
 print(f"Ingreso de tienda4 es -> {ingreso_tienda4}")
+
+# ? En este debes calcular la cantidad de productos vendidos por categoría en cada tienda. La idea es agrupar los datos por categoría y contar el número de ventas de cada tipo, mostrando las categorías más populares de cada tienda.
+categoria = set(tienda["Categoría del Producto"])
+print(categoria)
