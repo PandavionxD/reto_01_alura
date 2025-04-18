@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 
 # ? Levantar el entorno virtual
 # python -m venv .env / source ./env/bin/activate
+# ? Crear archivo de requerimientos
+# pip freeze > "requirements"
+# ? Instalar las librerias en requirements.txt
+# pip install -r requirements.txt
 
 url = "https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_1%20.csv"
 url2 = "https://raw.githubusercontent.com/alura-es-cursos/challenge1-data-science-latam/refs/heads/main/base-de-datos-challenge1-latam/tienda_2.csv"
